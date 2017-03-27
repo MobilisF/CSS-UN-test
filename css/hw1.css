@@ -1,0 +1,165 @@
+body {
+	background: #E3EFCA;
+	padding: 5px;
+	margin: 5px;
+	}
+
+header {
+	background: #ADCF60;
+	background: url("../images/flywheel.jpg") no-repeat;
+	background-size: cover;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	margin-top: -20px;
+	border-radius: 10px 10px 5px 5px;
+	padding: -1px;
+	}
+
+nav {
+	text-align: center;
+	padding-bottom: 35px;	
+	}
+
+nav a {
+	margin: 0 auto;
+	font-weight: 600;
+	font-size: 20px;
+	font-family: Garamond;
+	padding: 15px 35px 15px 35px;
+	margin-right: 30px;
+	border: ridge;
+	border-width: 1px 3px;
+	border-color: #313131 #353535 #474747 #595959;
+	border-radius: 30px 8px 30px 8px;	
+	text-decoration: none;
+	color: #000000;
+	background:  rgba(255,255,255, 0.3);
+	}
+
+nav a:hover {
+	background:  rgba(255,255,255, 0.5);
+	}
+
+nav a:active {
+	background:  rgba(255,255,255, 0.7);
+	color: #595959;
+	}
+
+.active {
+	background: rgba(255,255,255, 0.9);
+	}
+
+h1 {
+	color: #F9F9F9;
+	border-color: 5px solid black;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-shadow: 1px 1px 1px #1D0C0B, -1px -1px 1px #1D0C0B, -1px 1px 1px #1D0C0B, 1px -1px 1px #1D0C0B;
+	}
+
+h2 {
+	color: #1E1E1D;
+	text-align: left;
+	background: #ADCF60;
+	text-transform: uppercase;
+	padding: 10px;
+	padding-left: 20px;
+	margin-top: 0px;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 1px solid #474747;
+	}
+
+p {
+	padding-left: 1%;	
+	}
+
+.left  {
+	display: inline-block;
+	width: 20%;
+	margin: 1%;
+	margin-left: -0px;
+	margin-bottom: -15px;
+	padding-bottom: 5px;
+	float: left;
+	background: #ADCF60;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	}
+
+.right {
+	display: inline-block;
+	width: 79%;
+	background: #C5E4F1;
+	padding-bottom: 5px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	margin-top: 1%;
+	border-radius: 5px 5px 10px 10px;
+	}
+
+img {
+	width: 90%;
+	margin: 10px;
+	margin-bottom: -1%;
+	border-radius: 5px 5px 5px 5px;
+	border: 3px double #474747;
+	}
+
+img:hover {
+	width: 91%;	
+	}
+
+.right a {
+	text-decoration: none;
+	}
+
+.right a:hover {
+	color: #161716;
+	text-decoration: underline;
+	}
+
+.right a:active {
+  color: #247BA0;
+	}
+
+table {
+	margin-left: 20px;
+	margin: 0 auto;
+	padding: 10px;
+	/* really its enough properties here*/	
+	}
+
+th {
+	background: linear-gradient(to bottom, #396581, #5587A5);
+	color: #F1FAEE;
+	padding: 10px 15px 10px 15px;
+	font-size: 19px;
+	border-radius: 3px;
+	border-bottom: 2px ridge #E63946;
+	text-align: center;
+	}
+
+th:first-child, td:first-child {
+	text-align: left;
+	}
+
+td {
+	border-bottom: 1px solid #8F908F;
+	color: #2C1211;
+	padding: 5px 15px;
+	background: rgba(153,183,201, 0.6);
+	text-align: center;
+	}
+
+tr:hover td {
+	background: rgba(153,183,201, 0.8)
+	}
+
+td:nth-child(2),
+th:nth-child(2) {	
+	width: 25%;
+	}
+td:nth-child(3),
+th:nth-child(3) {	
+	width: 25%;
+	}
